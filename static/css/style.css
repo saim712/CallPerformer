@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container1 {
+    background-color: blue;
+    max-width: 90%;  
+    overflow-x: hidden;   
+    margin: 0 auto;   
+}
+
+.container1 .floating_pics img{
+    width: 600px;
+    border-radius: 12px;
+    margin: 1rem;
+    padding: 1rem;
+}
+.container1 .floating_pics .left{
+    width: 45%;
+    float:left;
+
+}
+.container1 .floating_pics .right{
+    width: 45%;
+    float:right;
+
+}
+.clr{
+    content: '';
+    clear: both;
+}

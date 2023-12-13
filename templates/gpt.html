@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Call Performer - Revolutionize Call Center Performance</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style4.css') }}"
+    />
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="../static/image/logo.png"  alt="Call Performer Logo"  />
+        </a>
+        <nav class="navigation">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul>
+                        <li><a href="#">Training Courses</a></li>
+                        <li><a href="#">Analyze Performance</a></li>
+                        <li><a href="#">Paid Features</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="login-form">
+            <form action="/login" method="post">
+                <input type="hidden" name="redirect" value="/login">
+                <button type="submit" class="btn btn-outline-success">Login</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <h1>Revolutionize Your Call Center Performance</h1>
+                <p>
+                    Call Performer empowers call center managers with a cutting-edge solution to optimize operator performance, enhance customer experiences, and drive business success.
+                </p>
+                <a href="#" class="btn btn-primary">Get Started Now</a>
+            </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <h2>Unlock the Power of Call Performance Analysis</h2>
+                <div class="row">
+                    <div class="feature-item col-md-4">
+                        <img src="../static/image/recording.png" alt="Feature 1 Icon" />
+                        <h3>Advanced Call Recording</h3>
+                        <p>Capture and analyze every call to identify areas for improvement and ensure quality assurance.</p>
+                    </div>
+                    <div class="feature-item col-md-4">
+                        <img src="../static/image/coaching.jpg" alt="Feature 2 Icon" />
+                        <h3>Real-time Coaching</h3>
+                        <p>Provide immediate feedback and guidance to agents during calls for improved performance.</p>
+                    </div>
+                    <div class="feature-item col-md-4">
+                        <img src="../static/image/images.jpg" alt="Feature 3 Icon" />
+                        <h3>Detailed Reporting and Analytics</h3>
+                        <p>Gain valuable insights into call center performance metrics and track progress over time.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid ">
+                <h2>Analyze Emotions</h2>
+                <ul>
+                    <li>Upload a picture and instantly see the emotions detected.</li>
+                    <li>Get individual analysis for multiple people in the image.</li>
+                    <li> See confidence levels for each emotion detected.</li>
+                    <li>Gain valuable insights for customer service, marketing, and more.</li>
+                    <li>Enhance user experience by understanding their emotional state.</li>
+                </ul>
+                 
+            <form action="/analyze_emotion" method="post" enctype="multipart/form-data" class="form">
+                <input type="file" name="image" id="image" accept="image/*">
+                <input type="submit" value="Analyze Emotion" >
+            </form>
+            </div>
+        </section>
+  
+        </div>
+  
+        <div id="emotion_results">
+          <!-- Emotion analysis results will be displayed here -->
+        </div>
+        <section class="testimonial">
+            <div class="container">
+                <h2>What Our Clients Say</h2>
+                <div class="testimonial-slider">
+                    <div class="testimonial-item">
+                        <p>
+                            "Call Performer has been instrumental in helping us improve our call center performance by 20%. We are now able to provide our customers with a better experience and achieve our business goals."
+                        </p>
+                        <div class="author">
+                            <img src="../static/image/client.jpg" alt="Client 1 Photo" />
+                            <h4>John Doe</h4>
+                            <!-- <p>CEO, XYZ Company</p> -->
+                        </div>
+                    </div
+
+
+                   
+
+

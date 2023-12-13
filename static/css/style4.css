@@ -1,0 +1,172 @@
+/* General styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+    background-color: #343a40;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.logo img {
+    width: 80px;
+    border-radius: 12px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    background-color: #2c3238;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+}
+
+.login-form form {
+    display: inline-block;
+}
+
+/* Main styles */
+.main {
+    padding: 2rem;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #f5f5f5;
+    padding: 4rem 0;
+}
+
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.hero a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Features section styles */
+.features {
+    padding: 2rem 0;
+}
+
+.features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.feature-item {
+    background-color: #f7f7f7;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.feature-item img {
+    width: 80px;
+    margin-bottom: 0.5rem;
+}
+
+.feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.feature-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Testimonial section styles */
+.testimonial {
+    background-color: #f5f5f5;
+    padding: 2rem 0;
+}
+
+.testimonial h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial-item {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 4px;
+}
+
+.testimonial-item p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author img {
+    width: 100px;
+    margin-right: 0.5rem;
+}
+
+.author h4 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.author p {
+    font-size: 0.85rem;
+}
+
+.form{
+    margin: 1rem;
+    padding: 1rem;
+}
+
